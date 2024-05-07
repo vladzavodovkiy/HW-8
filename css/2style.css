@@ -1,0 +1,40 @@
+.week th:hover {
+    background-color: gray;
+    cursor: default;
+  }
+  .lessons tr:active td {
+    background-color: rgb(117, 87, 227);
+    cursor: default;
+  }
+  .lessons tr:last-child td {
+    color: rgb(9, 26, 6);
+  }
+  .lessons tr:first-child td{
+    color: rgb(122, 32, 74);
+  }
+  .lessons tr:focus td {
+    background-color: rgb(45, 53, 126);
+  }
+  .lessons tr:nth-child(odd) td {
+    font-style: italic;
+  }
+  .lessons tr:nth-child(even) td {
+    font-style: oblique;
+  }
+  .lessons tr:nth-child(3n) td {
+    font-size: 20px;
+  }
+  .lessons tr:nth-child(5n + 2) td {
+    text-transform: uppercase;
+  }
+  table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+  }
+  th,
+  td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }

@@ -1,0 +1,14 @@
+.text-box h3:first-child { color: pink;
+}
+#greycol {
+    color:grey;
+}
+p:nth-child(1) {
+    color: red;
+}
+p:not(:nth-child(1), :nth-child(2), .yellow) {
+    color: green;
+}
+p.yellow {
+    color: yellow;
+}
